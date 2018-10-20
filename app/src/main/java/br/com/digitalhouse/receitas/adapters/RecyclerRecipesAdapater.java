@@ -79,7 +79,7 @@ public class RecyclerRecipesAdapater extends RecyclerView.Adapter<RecyclerRecipe
 
         public void bind(Recipes recipes) {
             Picasso.get()
-                    .load(recipes.getRecipes())
+                    .load(recipes.getImgRecipes())
                     .placeholder(R.drawable.splash_receitas)
                     .error(android.R.drawable.stat_notify_error)
                     .into(imageViewRecipes);

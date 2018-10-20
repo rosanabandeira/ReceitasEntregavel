@@ -28,4 +28,7 @@ public class Recipes {
     }
 
 
+    public String getImgRecipes() {
+        return imgRecipes;
+    }
 }
